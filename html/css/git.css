@@ -34,3 +34,6 @@ p.italic {
 p.bold {
     font-style: bold;
 }
+b {
+    color:red;
+}

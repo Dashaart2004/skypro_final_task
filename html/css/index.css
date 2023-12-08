@@ -1,30 +1,41 @@
 .logo {
 	 float: left;
 }
- nav {
-	 float: right;
+nav {
+	float: right;
+	font-size: large;
 }
- nav ul {
-	 margin: 0;
-	 padding: 0;
-	 list-style: none;
+nav ul {
+	list-style:none
 }
- nav li {
-	 display: inline-block;
+nav li {
+	display:inline-block;
 }
- body {
-	 background: #000000;
-	 color: #fff;
+body {
+	background: white;
+	color: #fff;
 }
- a {
-	 color: #808000
+a {
+	color: #0f0f0f
 }
- h1 {
-	 color: #008080
+h1 {
+	color: black
 }
- p {
-	 color: #008000
+p {
+	color: black
 }
- ol {
-	 color: #008000
+ul {
+	color: black
 }
+.header {
+	display:flex ;
+	flex-direction: row ;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+.links-container {
+	align-self: center
+}
+li a {
+	padding-left: 10px;
+  }
